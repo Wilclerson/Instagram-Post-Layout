@@ -1,0 +1,81 @@
+body{
+    background: #BDBDBD;
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+ background: white;
+ padding: 10px;
+}
+header h1{
+    margin: 0;
+    text-align: center;
+}
+div.post{
+    background: white;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#main-image{
+    width: 100%;
+}
+#logo{
+   display: inline-block;
+   float: left;
+   padding-top: 3px;
+   padding-right: 3px;
+}
+.left-header{
+    padding: 10px;
+    margin: 0;
+    display: inline-block;
+    width: 90%;
+    float: left;
+}
+.left-header p{
+    padding: 0 !important;
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 90%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 10%;
+    padding-right: 10px;
+    padding-top: 4px;
+}
+.fa-regular{
+    padding-right: 7px;
+}
+div.post h4, div.post p{
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+}
+.under-image{
+    display: inline-block;
+    width: 90%;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 6.5px;
+}
+div.bookmark{
+    display: inline-block;
+    width: 10%;
+    padding-left: 10px;
+    padding-top: 4px;
+    float: right;
+}
+div.container{
+    width: 500px;
+    margin: auto;
+}
+p{
+    font-size: 14.5px !important; 
+}
